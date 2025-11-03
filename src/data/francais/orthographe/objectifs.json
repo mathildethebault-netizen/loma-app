@@ -1,0 +1,34 @@
+[
+  {
+    "code": "O1",
+    "intitule": "Accorder l’adjectif avec le nom (genre, nombre)"
+  },
+  {
+    "code": "O2",
+    "intitule": "Accorder le nom et le déterminant"
+  },
+  {
+    "code": "O3",
+    "intitule": "Orthographier les mots outils fréquents"
+  },
+  {
+    "code": "O4",
+    "intitule": "Différencier a/à, et/est"
+  },
+  {
+    "code": "O5",
+    "intitule": "Repérer la marque du pluriel -s des noms"
+  },
+  {
+    "code": "O6",
+    "intitule": "Utiliser correctement la majuscule et le point"
+  },
+  {
+    "code": "O7",
+    "intitule": "Écrire les sons [é]/[er]/[ez] (é/er/ez)"
+  },
+  {
+    "code": "O8",
+    "intitule": "Utiliser la cédille et les accents usuels"
+  }
+]

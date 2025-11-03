@@ -1,0 +1,129 @@
+/* =========================================================
+   🌸 LOMA APPLICATION — STYLES DES BOUTONS (v3)
+   ---------------------------------------------------------
+   - Respect strict de la charte visuelle (beige / brun / vert / bleu)
+   - Styles doux, cohérents entre les mondes
+   - Compatible Tailwind + Framer Motion
+   ========================================================= */
+
+/* === Base commune === */
+.btn {
+  @apply font-glacial font-semibold rounded-[22px] px-10 py-5 text-lg transition-all duration-300 cursor-pointer shadow-loma;
+  border: none;
+  outline: none;
+  transform-origin: center;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+/* =========================================================
+   🌷 MONDE FRANÇAIS — Contrastes officiels (charte)
+   ========================================================= */
+.monde-francais .btn-primary {
+  background-color: #f1c68c;
+  color: #96a842;
+  border: 2px solid #f1c68c;
+  box-shadow: 0 4px 10px rgba(241, 198, 140, 0.4);
+}
+.monde-francais .btn-primary:hover {
+  background-color: #f3d4a7;
+  color: #89a13a;
+}
+
+.monde-francais .btn-secondary {
+  background-color: #604a3b;
+  color: #f6afa1;
+  border: 2px solid #604a3b;
+  box-shadow: 0 4px 10px rgba(96, 74, 59, 0.4);
+}
+.monde-francais .btn-secondary:hover {
+  background-color: #755e4b;
+  color: #f8bcb0;
+}
+
+.monde-francais .btn-accent {
+  background-color: #f1c68c;
+  color: #604a3b;
+  border: 2px solid #f1c68c;
+  box-shadow: 0 4px 10px rgba(241, 198, 140, 0.4);
+}
+.monde-francais .btn-accent:hover {
+  background-color: #f3d4a7;
+  color: #604a3b;
+}
+
+.monde-francais .btn-neutral {
+  background-color: #604a3b;
+  color: #f1c68c;
+  border: 2px solid #604a3b;
+  box-shadow: 0 4px 10px rgba(96, 74, 59, 0.4);
+}
+.monde-francais .btn-neutral:hover {
+  background-color: #755e4b;
+  color: #fff5e1;
+}
+
+/* =========================================================
+   🌿 MONDE MATHS — Palette validée (vert tendre, bleu doux, beige)
+   =========================================================
+   ✅ 1. Beige + Vert (#f1c68c + #7ca02e)
+   ✅ 2. Brun + Bleu doux (#604a3b + #a8d0da)
+   ✅ 3. Vert clair + Brun (#a7c957 + #604a3b)
+========================================================= */
+
+/* 1️⃣ Primaire — beige / vert */
+.monde-maths .btn-primary {
+  background-color: #f1c68c;
+  color: #7ca02e;
+  border: 2px solid #f1c68c;
+  box-shadow: 0 4px 10px rgba(241, 198, 140, 0.4);
+}
+.monde-maths .btn-primary:hover {
+  background-color: #f3d4a7;
+  color: #6e8f26;
+}
+
+/* 2️⃣ Secondaire — brun / bleu doux */
+.monde-maths .btn-secondary {
+  background-color: #604a3b;
+  color: #a8d0da;
+  border: 2px solid #604a3b;
+  box-shadow: 0 4px 10px rgba(96, 74, 59, 0.4);
+}
+.monde-maths .btn-secondary:hover {
+  background-color: #755e4b;
+  color: #bce0e7;
+}
+
+/* 3️⃣ Accent — vert clair / brun */
+.monde-maths .btn-accent {
+  background-color: #a7c957;
+  color: #604a3b;
+  border: 2px solid #a7c957;
+  box-shadow: 0 4px 10px rgba(167, 201, 87, 0.4);
+}
+.monde-maths .btn-accent:hover {
+  background-color: #b6d66b;
+  color: #604a3b;
+}
+
+/* =========================================================
+   ✨ États globaux et accessibilité
+   ========================================================= */
+.btn:focus {
+  outline: 2px solid rgba(0, 0, 0, 0.15);
+  outline-offset: 3px;
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}

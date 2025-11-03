@@ -1,0 +1,3 @@
+id;domaine;sousDomaine;type;consigne;question;options;reponse;explication;tags;difficulte;tempsEstime;niveau;competencies;objectif;reference
+gram-0001;grammaire;nature des mots;qcm;Choisis la nature du mot souligné.;Quel est la nature de « rapidement » ?;adjectif|nom|adverbe|verbe;adverbe;Un adverbe modifie un verbe, un adjectif ou un autre adverbe.;adverbes|nature;1;3;cycle2;identifier la nature des mots;G7;Éduscol
+gram-0002;grammaire;fonctions;vrai-faux;Indique si l'affirmation est vraie ou fausse.;Le COD répond à la question « à qui ? ».;;faux;Le COD répond à « quoi ? » ou « qui ? » après le verbe.;fonctions;1;2;cycle2;fonctions;G2;Éduscol

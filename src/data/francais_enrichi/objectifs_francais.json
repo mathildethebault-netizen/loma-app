@@ -1,0 +1,97 @@
+{
+  "lecture": {
+    "Décoder et lire à voix haute": [
+      "Identifier des sons, lettres et syllabes dans des mots simples",
+      "Lire des mots fréquents et irréguliers de manière fluide",
+      "Mettre en œuvre les correspondances graphophonologiques",
+      "Segmenter, fusionner et manipuler les syllabes et phonèmes",
+      "Lire à voix haute avec fluidité après préparation",
+      "Respecter la ponctuation, les groupes syntaxiques et l’intonation",
+      "Lire en respectant le rythme et la prosodie",
+      "Comprendre ce qu’on lit en mobilisant le décodage et la mémoire immédiate",
+      "Participer à des lectures dialoguées ou collectives"
+    ],
+    "Comprendre un texte": [
+      "Identifier les personnages, lieux et actions d’un texte narratif",
+      "Comprendre le sens global et explicite d’un texte lu ou entendu",
+      "Identifier le lexique propre à une situation ou un récit",
+      "Répondre à des questions de compréhension explicites et implicites",
+      "Reformuler un passage ou un texte dans ses propres mots",
+      "Faire des inférences simples à partir du texte (cause, conséquence, intention)",
+      "Identifier les connecteurs temporels et logiques",
+      "Relier les informations du texte à ses connaissances du monde",
+      "Distinguer texte documentaire, narratif ou poétique",
+      "Utiliser des stratégies de compréhension (anticipation, repérage, reformulation)"
+    ],
+    "Lire pour apprendre et pour le plaisir": [
+      "Lire des consignes, documents et textes informatifs pour s’informer",
+      "Lire des œuvres de littérature jeunesse variées",
+      "Échanger sur ses lectures, exprimer ses émotions et préférences",
+      "Identifier le genre et les caractéristiques d’un texte",
+      "Développer une posture de lecteur autonome et curieux",
+      "Participer à des lectures partagées ou à haute voix",
+      "Utiliser la lecture pour enrichir son vocabulaire et sa culture",
+      "Lire silencieusement pour le plaisir et la compréhension"
+    ]
+  },
+
+  "vocabulaire": {
+    "Découvrir et comprendre le sens des mots": [
+      "Repérer et comprendre des mots inconnus dans un texte",
+      "Utiliser le contexte pour déduire le sens d’un mot nouveau",
+      "Distinguer mots du quotidien et mots spécifiques à un domaine",
+      "Identifier les synonymes, antonymes et mots de la même famille",
+      "Classer les mots selon leur sens ou leur champ lexical"
+    ],
+    "Enrichir et structurer son lexique": [
+      "Mémoriser des mots nouveaux en lien avec les apprentissages",
+      "Utiliser un vocabulaire précis pour décrire, raconter, expliquer",
+      "Regrouper des mots selon leur nature ou leur usage",
+      "Employer des mots variés dans les productions orales et écrites",
+      "Construire et utiliser des familles de mots (radical, préfixe, suffixe)"
+    ],
+    "Réinvestir le vocabulaire": [
+      "Réutiliser les mots appris dans d’autres contextes",
+      "Jouer avec les mots (charades, devinettes, associations, contraires)",
+      "Utiliser des dictionnaires papier ou numériques",
+      "Adapter le vocabulaire à la situation de communication",
+      "S’auto-corriger et reformuler pour préciser sa pensée"
+    ]
+  },
+
+  "grammaire-orthographe": {
+    "Identifier les classes de mots": [
+      "Reconnaître les noms, déterminants, adjectifs, verbes et pronoms",
+      "Identifier les prépositions, conjonctions et adverbes fréquents",
+      "Distinguer le verbe des autres mots du groupe verbal",
+      "Repérer les expansions du nom : adjectif, complément du nom, proposition relative"
+    ],
+    "Comprendre les fonctions dans la phrase": [
+      "Identifier le sujet du verbe et accorder le verbe avec son sujet",
+      "Reconnaître les compléments du verbe (COD, COI, CC)",
+      "Identifier le complément du nom et l’adjectif qualificatif",
+      "Repérer le groupe nominal et le groupe verbal dans la phrase",
+      "Repérer les propositions et leurs relations dans une phrase complexe"
+    ],
+    "Maîtriser l’accord des mots": [
+      "Accorder le déterminant et le nom en genre et en nombre",
+      "Accorder l’adjectif avec le nom qu’il qualifie",
+      "Accorder le verbe avec son sujet (nombre et personne)",
+      "Utiliser correctement le pluriel des noms et des adjectifs",
+      "Employer correctement les temps verbaux étudiés"
+    ],
+    "Orthographe lexicale et grammaticale": [
+      "Mémoriser l’orthographe de mots fréquents et irréguliers",
+      "Appliquer les règles d’accord dans les phrases produites",
+      "Vérifier et corriger l’orthographe d’un texte",
+      "Utiliser des outils (affiches, dictionnaires, logiciels) pour s’auto-corriger",
+      "Identifier et corriger les homophones grammaticaux courants"
+    ],
+    "Produire des phrases correctes": [
+      "Construire des phrases simples et complexes bien ponctuées",
+      "Utiliser les connecteurs logiques pour relier les idées",
+      "Employer correctement les pronoms pour éviter les répétitions",
+      "Améliorer la syntaxe et la cohérence des phrases écrites"
+    ]
+  }
+}

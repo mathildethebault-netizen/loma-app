@@ -1,0 +1,3 @@
+id;domaine;sousDomaine;type;consigne;question;options;reponse;explication;tags;difficulte;tempsEstime;niveau;competencies;objectif;reference
+ortho-0001;orthographe;homophones;qcm;Choisis la bonne orthographe.;(a/à) quel âge es-tu ?;a|à;à;Ici, « à » est une préposition.;homophones;1;1;cycle2;orthographe;O4;Éduscol
+ortho-0002;orthographe;accord GN;vrai-faux;Vrai ou faux ?;Les adjectifs ne s'accordent jamais.; ;faux;L'adjectif s'accorde en genre et en nombre.;accords;1;2;cycle2;orthographe;O1;Éduscol

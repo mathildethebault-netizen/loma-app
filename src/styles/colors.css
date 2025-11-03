@@ -1,0 +1,78 @@
+/* =========================================================
+   🌸 LOMA DESIGN SYSTEM — VARIABLES GLOBALES
+   ---------------------------------------------------------
+   - Couleurs pastel et naturelles
+   - Compatibilité avec Tailwind et JS
+   - Préparation au mode sombre 🌙
+========================================================= */
+
+:root {
+  /* 🌿 Palette principale LOMA */
+  --loma-rose: #f6afa1;
+  --loma-beige: #f1c68c;
+  --loma-vert: #96a842;
+  --loma-violet: #96899e;
+  --loma-brun: #604a3b;
+  --loma-fond: #fffaf2;
+
+  /* 🌞 Tons secondaires et neutres */
+  --loma-creme: #fdfaf5;
+  --loma-jaune: #fcd581;
+  --loma-orange: #f7b267;
+  --loma-vert-clair: #c8e3d4;
+
+  /* 🎨 Textes */
+  --loma-text-principal: var(--loma-brun);
+  --loma-text-secondaire: #7a5c4a;
+  --loma-text-clair: #fffaf2;
+
+  /* 💫 Ombres et contours */
+  --loma-ombre-douce: rgba(0, 0, 0, 0.08);
+  --loma-ombre-forte: rgba(0, 0, 0, 0.15);
+  --loma-ligne: rgba(0, 0, 0, 0.05);
+}
+
+/* =========================================================
+   🌙 MODE SOMBRE — Harmonie douce et lisible
+========================================================= */
+.dark {
+  --loma-fond: #1c1c1e;
+  --loma-text-principal: #f5f5f7;
+  --loma-text-secondaire: #a1a1aa;
+  --loma-rose: #f4a9a2;
+  --loma-beige: #e0b97e;
+  --loma-vert: #a6be65;
+  --loma-brun: #d7ccc8;
+  --loma-violet: #a59cb2;
+  --loma-ombre-douce: rgba(255, 255, 255, 0.05);
+  --loma-ombre-forte: rgba(255, 255, 255, 0.1);
+}
+
+/* =========================================================
+   💧 UTILITAIRES DE COULEURS (optionnels)
+========================================================= */
+.bg-loma {
+  background-color: var(--loma-fond);
+  color: var(--loma-text-principal);
+}
+
+.text-loma {
+  color: var(--loma-text-principal);
+}
+
+.shadow-loma {
+  box-shadow: 0 4px 10px var(--loma-ombre-douce);
+}
+
+.border-loma {
+  border-color: var(--loma-ligne);
+}
+
+/* =========================================================
+   ✨ UTILISATION
+   ---------------------------------------------------------
+   Dans React :
+     style={{ backgroundColor: "var(--loma-beige)" }}
+   Dans CSS :
+     color: var(--loma-brun);
+========================================================= */

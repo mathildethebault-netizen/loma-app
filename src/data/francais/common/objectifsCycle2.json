@@ -1,0 +1,138 @@
+{
+  "grammaire": [
+    {
+      "code": "G1",
+      "intitule": "Identifier le verbe dans une phrase simple"
+    },
+    {
+      "code": "G2",
+      "intitule": "Reconnaître le sujet du verbe"
+    },
+    {
+      "code": "G3",
+      "intitule": "Repérer le groupe nominal sujet"
+    },
+    {
+      "code": "G4",
+      "intitule": "Distinguer phrase et non-phrase"
+    },
+    {
+      "code": "G5",
+      "intitule": "Identifier les types de phrases (déclarative, interrogative, impérative)"
+    },
+    {
+      "code": "G6",
+      "intitule": "Identifier l’adjectif qualificatif"
+    },
+    {
+      "code": "G7",
+      "intitule": "Identifier les adverbes fréquents"
+    },
+    {
+      "code": "G8",
+      "intitule": "Repérer la négation simple"
+    }
+  ],
+  "conjugaison": [
+    {
+      "code": "C1",
+      "intitule": "Conjuguer un verbe du 1er groupe au présent"
+    },
+    {
+      "code": "C2",
+      "intitule": "Conjuguer être et avoir au présent"
+    },
+    {
+      "code": "C3",
+      "intitule": "Conjuguer aller et faire au présent"
+    },
+    {
+      "code": "C4",
+      "intitule": "Distinguer infinitif et verbe conjugué"
+    },
+    {
+      "code": "C5",
+      "intitule": "Conjuguer être et avoir au passé composé"
+    },
+    {
+      "code": "C6",
+      "intitule": "Accorder verbe et sujet (présent)"
+    },
+    {
+      "code": "C7",
+      "intitule": "Employer le futur proche (aller + infinitif)"
+    },
+    {
+      "code": "C8",
+      "intitule": "Repérer les terminaisons régulières (1er groupe)"
+    }
+  ],
+  "orthographe": [
+    {
+      "code": "O1",
+      "intitule": "Accorder l’adjectif avec le nom (genre, nombre)"
+    },
+    {
+      "code": "O2",
+      "intitule": "Accorder le nom et le déterminant"
+    },
+    {
+      "code": "O3",
+      "intitule": "Orthographier les mots outils fréquents"
+    },
+    {
+      "code": "O4",
+      "intitule": "Différencier a/à, et/est"
+    },
+    {
+      "code": "O5",
+      "intitule": "Repérer la marque du pluriel -s des noms"
+    },
+    {
+      "code": "O6",
+      "intitule": "Utiliser correctement la majuscule et le point"
+    },
+    {
+      "code": "O7",
+      "intitule": "Écrire les sons [é]/[er]/[ez] (é/er/ez)"
+    },
+    {
+      "code": "O8",
+      "intitule": "Utiliser la cédille et les accents usuels"
+    }
+  ],
+  "lexique-expression": [
+    {
+      "code": "L1",
+      "intitule": "Comprendre le sens d’un mot selon le contexte"
+    },
+    {
+      "code": "L2",
+      "intitule": "Trouver un synonyme courant"
+    },
+    {
+      "code": "L3",
+      "intitule": "Trouver un antonyme courant"
+    },
+    {
+      "code": "L4",
+      "intitule": "Classer des mots par champ lexical"
+    },
+    {
+      "code": "L5",
+      "intitule": "Comprendre un ordre d’images et raconter"
+    },
+    {
+      "code": "L6",
+      "intitule": "Reformuler une phrase avec ses mots"
+    },
+    {
+      "code": "L7",
+      "intitule": "Comprendre une consigne simple"
+    },
+    {
+      "code": "L8",
+      "intitule": "Repérer les connecteurs temporels simples"
+    }
+  ]
+}

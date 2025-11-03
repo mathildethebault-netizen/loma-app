@@ -1,0 +1,54 @@
+/* =========================================================
+   🌿 LOMA CARDS SYSTEM
+   ---------------------------------------------------------
+   - Cartes arrondies, pastel, ombres légères
+   - Adaptées au monde (maths / français)
+   - Utilisées pour les blocs d’exercices ou zones cliquables
+========================================================= */
+
+.card {
+  background-color: #fffaf2;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* === MONDE FRANÇAIS === */
+.monde-francais .card {
+  border: 2px solid #f6afa1;
+}
+.monde-francais .card:hover {
+  background-color: #ffe8e5;
+}
+
+/* === MONDE MATHS === */
+.monde-maths .card {
+  border: 2px solid #a7c957;
+}
+.monde-maths .card:hover {
+  background-color: #f1f7e9;
+}
+
+/* === TITRES DE CARTES === */
+.card-title {
+  font-family: 'Childos Arabic', 'Glacial Indifference', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #604a3b;
+  margin-bottom: 0.8rem;
+}
+
+/* === CONTENU DES CARTES === */
+.card-content {
+  font-family: 'Nunito', sans-serif;
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}

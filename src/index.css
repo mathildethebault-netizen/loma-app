@@ -1,0 +1,214 @@
+/* =========================================================
+   🌸 LOMA APPLICATION — STYLES GLOBAUX + POLICES LOCALES
+   =========================================================
+   - Polices locales + fallback Google Fonts
+   - Variables de couleurs globales (ancien colors.css)
+   - Harmonisation des animations et typographies
+   - Intégration du fichier buttons.tailwind.css
+   ========================================================= */
+
+/* === Import Google Fonts (fallback) === */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Glacial+Indifference&display=swap');
+
+/* === Polices locales === */
+@font-face {
+  font-family: 'Childos Arabic';
+  src: url('/fonts/ChildosArabic-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === Base Tailwind === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Import du fichier de boutons === */
+@import "./styles/buttons.tailwind.css";
+
+/* =========================================================
+   🎨 VARIABLES DE COULEURS GLOBALES (ancien colors.css)
+========================================================= */
+:root {
+  --loma-rose: #f6afa1;
+  --loma-beige: #f1c68c;
+  --loma-vert: #96a842;
+  --loma-violet: #96899e;
+  --loma-brun: #604a3b;
+  --loma-fond: #fffaf2;
+  --loma-creme: #fdfaf5;
+  --loma-jaune: #fcd581;
+  --loma-orange: #f7b267;
+  --loma-vert-clair: #c8e3d4;
+
+  --loma-text-principal: var(--loma-brun);
+  --loma-text-secondaire: #7a5c4a;
+  --loma-text-clair: #fffaf2;
+
+  --loma-ombre-douce: rgba(0, 0, 0, 0.08);
+  --loma-ombre-forte: rgba(0, 0, 0, 0.15);
+  --loma-ligne: rgba(0, 0, 0, 0.05);
+}
+
+/* 🌙 Mode sombre */
+.dark {
+  --loma-fond: #1c1c1e;
+  --loma-text-principal: #f5f5f7;
+  --loma-text-secondaire: #a1a1aa;
+  --loma-rose: #f4a9a2;
+  --loma-beige: #e0b97e;
+  --loma-vert: #a6be65;
+  --loma-brun: #d7ccc8;
+  --loma-violet: #a59cb2;
+  --loma-ombre-douce: rgba(255, 255, 255, 0.05);
+  --loma-ombre-forte: rgba(255, 255, 255, 0.1);
+}
+
+/* =========================================================
+   🧩 BASE GLOBALE
+========================================================= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: none;
+}
+
+body {
+  font-family: 'Glacial Indifference', 'Nunito', sans-serif;
+  color: var(--loma-text-principal);
+  background-color: var(--loma-fond);
+  min-height: 100vh;
+}
+
+/* === Liens === */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #b45309; /* brun doux */
+}
+
+/* === Titres === */
+h1,
+h2,
+h3 {
+  font-family: 'Childos Arabic', 'Glacial Indifference', sans-serif;
+  color: var(--loma-brun);
+  font-weight: 700;
+}
+
+/* === Paragraphes === */
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* === Boutons généraux === */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Glacial Indifference', 'Nunito', sans-serif;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--loma-ombre-douce);
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out both;
+}
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite ease-in-out;
+}
+
+/* === Scrollbar douce === */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* === Classes utiles === */
+.bg-gradient-loma {
+  background: linear-gradient(to bottom, #fdf2f8, #fffbea, #ebf8ff);
+}
+
+/* === Couleurs réutilisables === */
+.bg-loma {
+  background-color: var(--loma-fond);
+  color: var(--loma-text-principal);
+}
+.text-loma {
+  color: var(--loma-text-principal);
+}
+.shadow-loma {
+  box-shadow: 0 4px 10px var(--loma-ombre-douce);
+}
+.border-loma {
+  border-color: var(--loma-ligne);
+}
+
+/* === Typographie supplémentaire === */
+@import "./styles/typography.css";

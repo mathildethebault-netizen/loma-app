@@ -1,0 +1,82 @@
+{
+  "cycle": "Cycle 2",
+  "matiere": "Français",
+  "domaines": {
+    "Lecture": {
+      "objectifs": [
+        { "niveau": "CP", "intitule": "Identifier des mots de manière de plus en plus aisée." },
+        { "niveau": "CP", "intitule": "Comprendre des textes adaptés à l’âge et au niveau de lecture des élèves." },
+        { "niveau": "CE1", "intitule": "Lire à voix haute avec fluidité et compréhension." },
+        { "niveau": "CE1", "intitule": "Identifier les principaux éléments d’un texte lu (personnages, événements, lieux)." },
+        { "niveau": "CE2", "intitule": "Adapter sa lecture aux différents types de textes et à leurs objectifs." },
+        { "niveau": "CE2", "intitule": "Utiliser des stratégies de compréhension (anticipation, reformulation, inférence)." }
+      ]
+    },
+    "Écriture": {
+      "objectifs": [
+        { "niveau": "CP", "intitule": "Produire des écrits très courts en respectant la cohérence et la syntaxe simple." },
+        { "niveau": "CP", "intitule": "Utiliser la ponctuation de base (point, majuscule)." },
+        { "niveau": "CE1", "intitule": "Rédiger des textes courts en utilisant ses connaissances lexicales et grammaticales." },
+        { "niveau": "CE1", "intitule": "Planifier et réviser ses écrits en fonction des retours." },
+        { "niveau": "CE2", "intitule": "Rédiger des textes cohérents et structurés selon le type d’écrit visé." },
+        { "niveau": "CE2", "intitule": "Utiliser des connecteurs logiques et temporels adaptés." }
+      ]
+    },
+    "Oral": {
+      "objectifs": [
+        { "niveau": "CP", "intitule": "Oser prendre la parole devant les autres." },
+        { "niveau": "CP", "intitule": "Exprimer clairement une idée ou un besoin." },
+        { "niveau": "CE1", "intitule": "Participer à des échanges dans des situations variées." },
+        { "niveau": "CE1", "intitule": "Reformuler pour vérifier la compréhension commune." },
+        { "niveau": "CE2", "intitule": "S’exprimer dans un français correct et adapté à la situation." },
+        { "niveau": "CE2", "intitule": "Prendre en compte les propos d’autrui dans une discussion." }
+      ]
+    },
+    "Vocabulaire": {
+      "Enrichir son vocabulaire dans tous les enseignements": [
+        { "niveau": "CP", "intitule": "Enrichir en contexte le vocabulaire appris en maternelle." },
+        { "niveau": "CP", "intitule": "Apprendre de nouveaux mots à partir de textes lus." },
+        { "niveau": "CE1", "intitule": "Approfondir le sens des mots rencontrés dans les lectures." },
+        { "niveau": "CE1", "intitule": "Observer la formation de mots simples (préfixe, suffixe, racine)." },
+        { "niveau": "CE2", "intitule": "Comprendre les relations entre les mots d’un même champ lexical." },
+        { "niveau": "CE2", "intitule": "Mobiliser le vocabulaire appris dans des productions orales et écrites." }
+      ],
+      "Établir des relations entre les mots": [
+        { "niveau": "CP", "intitule": "Classer les mots par familles de sens simples (animaux, objets, actions…)." },
+        { "niveau": "CE1", "intitule": "Repérer les synonymes et les contraires dans des phrases simples." },
+        { "niveau": "CE2", "intitule": "Utiliser les relations de sens entre les mots pour comprendre un texte." },
+        { "niveau": "CE2", "intitule": "Identifier les familles de mots et les relier à leur racine commune." }
+      ],
+      "Réemployer le vocabulaire étudié": [
+        { "niveau": "CP", "intitule": "Réutiliser les mots nouveaux dans des phrases construites à l’oral." },
+        { "niveau": "CE1", "intitule": "Employer le vocabulaire appris dans ses propres textes." },
+        { "niveau": "CE2", "intitule": "Utiliser à bon escient les mots appris selon le contexte d’écriture ou de lecture." }
+      ],
+      "Mémoriser l'orthographe lexicale": [
+        { "niveau": "CP", "intitule": "Mémoriser les mots fréquents et leurs formes orthographiques." },
+        { "niveau": "CE1", "intitule": "Tenir compte des accents et lettres muettes dans les mots appris." },
+        { "niveau": "CE2", "intitule": "Orthographier correctement les mots appris, en dictée ou en rédaction." }
+      ]
+    },
+    "Grammaire et Orthographe": {
+      "Se repérer dans la phrase simple": [
+        { "niveau": "CP", "intitule": "Identifier la phrase comme une unité de sens (majuscule, point)." },
+        { "niveau": "CE1", "intitule": "Reconnaître le verbe et le sujet dans une phrase simple." },
+        { "niveau": "CE2", "intitule": "Identifier les compléments essentiels et facultatifs dans une phrase simple." }
+      ],
+      "Découvrir, comprendre et mettre en œuvre l'orthographe grammaticale": [
+        { "niveau": "CP", "intitule": "Observer les accords simples entre le déterminant et le nom." },
+        { "niveau": "CE1", "intitule": "Mettre en œuvre les accords dans le groupe nominal (déterminant, nom, adjectif)." },
+        { "niveau": "CE2", "intitule": "Appliquer les règles d’accord du verbe avec son sujet dans la phrase." }
+      ]
+    },
+    "Conjugaison": {
+      "objectifs": [
+        { "niveau": "CP", "intitule": "Conjuguer les verbes être et avoir au présent de l’indicatif." },
+        { "niveau": "CE1", "intitule": "Conjuguer les verbes du premier groupe, être et avoir au présent, futur et imparfait." },
+        { "niveau": "CE2", "intitule": "Reconnaître le radical et la terminaison d’un verbe conjugué." },
+        { "niveau": "CE2", "intitule": "Identifier le temps d’un verbe dans une phrase et justifier son usage." }
+      ]
+    }
+  }
+}

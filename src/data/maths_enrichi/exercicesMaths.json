@@ -1,0 +1,12 @@
+[
+  {
+    "id": "maths-1",
+    "domaine": "nombres",
+    "niveau": "CP",
+    "objectif": "Compter jusqu’à 10",
+    "competence": "Numération",
+    "question": "Combien y a-t-il de pommes ? 🍎🍎🍎",
+    "reponses": ["2", "3", "4"],
+    "bonneReponse": "3"
+  }
+]

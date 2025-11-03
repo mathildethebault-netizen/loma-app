@@ -1,0 +1,94 @@
+{
+  "lecture": {
+    "Décoder et lire à voix haute": [
+      "Identifier des sons, lettres et syllabes dans des mots simples",
+      "Lire des mots fréquents et irréguliers de manière fluide",
+      "Mettre en œuvre les correspondances graphophonologiques",
+      "Segmenter, fusionner et manipuler les syllabes et phonèmes",
+      "Lire à voix haute avec fluidité après préparation",
+      "Respecter la ponctuation, les groupes syntaxiques et l’intonation",
+      "Lire en respectant le rythme et la prosodie",
+      "Comprendre ce qu’on lit en mobilisant le décodage et la mémoire immédiate",
+      "Participer à des lectures dialoguées ou collectives"
+    ],
+    "Comprendre un texte": [
+      "Identifier les personnages, lieux et actions d’un texte narratif",
+      "Comprendre le sens global et explicite d’un texte lu ou entendu",
+      "Identifier le lexique propre à une situation ou un récit",
+      "Répondre à des questions de compréhension explicites et implicites",
+      "Reformuler un passage ou un texte dans ses propres mots",
+      "Faire des inférences simples à partir du texte (cause, conséquence, intention)",
+      "Identifier les connecteurs temporels et logiques",
+      "Relier les informations du texte à ses connaissances du monde",
+      "Distinguer texte documentaire, narratif ou poétique",
+      "Utiliser des stratégies de compréhension (anticipation, repérage, reformulation)"
+    ],
+    "Lire pour apprendre et pour le plaisir": [
+      "Lire des consignes, documents et textes informatifs pour s’informer",
+      "Lire des œuvres de littérature jeunesse variées",
+      "Échanger sur ses lectures, exprimer ses émotions et préférences",
+      "Identifier le genre et les caractéristiques d’un texte",
+      "Développer une posture de lecteur autonome et curieux",
+      "Participer à des lectures partagées ou à haute voix",
+      "Utiliser la lecture pour enrichir son vocabulaire et sa culture",
+      "Lire silencieusement pour le plaisir et la compréhension"
+    ]
+  },
+  "vocabulaire": {
+    "Comprendre et utiliser le sens des mots": [
+      "Identifier le sens d’un mot dans un contexte donné",
+      "Distinguer sens propre et sens figuré",
+      "Employer un mot dans différents contextes",
+      "Trouver un mot de sens proche ou contraire",
+      "Identifier les familles de mots et les dérivations",
+      "Utiliser les préfixes et suffixes pour comprendre un mot inconnu"
+    ],
+    "Enrichir son vocabulaire": [
+      "Mémoriser des mots nouveaux rencontrés dans les lectures",
+      "Utiliser un lexique précis pour s’exprimer à l’oral et à l’écrit",
+      "Reformuler pour utiliser des synonymes",
+      "Classer des mots par champs lexicaux ou thématiques",
+      "Employer des mots spécifiques à un domaine étudié"
+    ],
+    "Réinvestir le vocabulaire": [
+      "Réutiliser les mots appris dans des situations variées",
+      "Adapter le lexique selon la situation de communication",
+      "Employer des expressions idiomatiques ou familières adaptées",
+      "Participer à des jeux lexicaux et de langage"
+    ]
+  },
+  "grammaire_orthographe": {
+    "Identifier la phrase et ses constituants": [
+      "Repérer les phrases dans un texte",
+      "Identifier le verbe et le sujet dans une phrase simple",
+      "Repérer les compléments essentiels du verbe",
+      "Distinguer types et formes de phrases",
+      "Reconnaître les phrases déclaratives, interrogatives, exclamatives et injonctives"
+    ],
+    "Accords dans la phrase": [
+      "Accorder le verbe avec son sujet",
+      "Accorder le nom et l’adjectif en genre et en nombre",
+      "Appliquer les marques d’accord dans des phrases simples",
+      "Identifier les erreurs d’accord et les corriger"
+    ],
+    "Conjugaison": [
+      "Conjuguer les verbes du premier groupe au présent, futur et imparfait",
+      "Conjuguer être et avoir aux temps simples",
+      "Employer correctement les verbes au passé composé",
+      "Identifier les marques de personne et de temps dans un verbe",
+      "Différencier radical et terminaison"
+    ],
+    "Orthographe lexicale": [
+      "Mémoriser l’orthographe des mots fréquents et irréguliers",
+      "Écrire sans erreur les mots appris",
+      "Utiliser des outils d’aide à l’écriture (affichage, dictionnaire)",
+      "Repérer les mots invariables et les employer correctement"
+    ],
+    "Ponctuation et syntaxe": [
+      "Employer correctement le point, la virgule et le point d’interrogation",
+      "Utiliser les majuscules en début de phrase et pour les noms propres",
+      "Segmenter correctement les phrases à l’écrit",
+      "Respecter la structure syntaxique des phrases simples"
+    ]
+  }
+}

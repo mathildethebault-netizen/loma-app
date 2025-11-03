@@ -1,0 +1,3 @@
+id;domaine;sousDomaine;type;consigne;question;options;reponse;explication;tags;difficulte;tempsEstime;niveau;competencies;objectif;reference
+lex-0001;lexique-expression;lexique;qcm;Choisis le synonyme.;Synonyme de « content » ?;heureux|rapide|petit;heureux;Synonyme courant.;synonymes;1;1;cycle2;lexique;L2;Éduscol
+lex-0002;lexique-expression;compréhension;reponse-courte;Réponds en une phrase.;Pourquoi le personnage quitte-t-il la maison ?;;Parce qu'il est en retard.;Indices textuels.;lecture;2;5;cycle2;compréhension;L5;Éduscol

@@ -1,0 +1,3 @@
+id;domaine;sousDomaine;type;consigne;question;options;reponse;explication;tags;difficulte;tempsEstime;niveau;competencies;objectif;reference
+conj-0001;conjugaison;temps simple;qcm;Choisis la bonne conjugaison.;Je (manger) à midi.;mange|manges|mangent;mange;1re personne du singulier au présent.;présent;1;2;cycle2;conjugaison;C1;Éduscol
+conj-0002;conjugaison;accords;texte-a-trous;Complète avec l'auxiliaire correct.;Nous (être/avoir) partis hier.;;avons;Ici l'auxiliaire « avoir » s'emploie.;auxiliaires;2;3;cycle2;conjugaison;C5;Éduscol

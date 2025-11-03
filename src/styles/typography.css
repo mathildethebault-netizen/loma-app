@@ -1,0 +1,100 @@
+/* =========================================================
+   ✨ LOMA TYPOGRAPHY SYSTEM
+   ---------------------------------------------------------
+   - Hiérarchie typographique harmonisée
+   - Polices locales cohérentes : Childos, Glacial, Nunito
+   - Styles réactifs et adaptés aux mondes (Maths, Français)
+========================================================= */
+
+/* === TITRES PRINCIPAUX (pages) === */
+h1, .heading-1 {
+  font-family: 'Childos Arabic', 'Glacial Indifference', sans-serif;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  color: var(--loma-brun);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* === SOUS-TITRES === */
+h2, .heading-2 {
+  font-family: 'Childos Arabic', 'Glacial Indifference', sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  color: var(--loma-brun);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.8rem;
+}
+
+/* === TITRES SECONDAIRES (blocs) === */
+h3, .heading-3 {
+  font-family: 'Glacial Indifference', sans-serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  color: var(--loma-text-principal);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+/* === PARAGRAPHES PRINCIPAUX === */
+p, .text-body {
+  font-family: 'Nunito', sans-serif;
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+  color: var(--loma-text-principal);
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* === PETITS TEXTES / CAPTIONS === */
+.small-text, .caption {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  color: var(--loma-text-secondaire);
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+/* === ACCENTUATIONS === */
+.emphasis {
+  color: var(--loma-vert);
+  font-weight: 700;
+}
+.text-muted {
+  color: var(--loma-text-secondaire);
+  opacity: 0.8;
+}
+
+/* === BOUTONS === */
+.btn-text {
+  font-family: 'Glacial Indifference', 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* === TITRES DES BLOCS D’EXERCICES === */
+.block-title {
+  font-family: 'Childos Arabic', sans-serif;
+  font-size: 1.5rem;
+  color: var(--loma-brun);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* === RESPONSIVE OPTIMIZATION === */
+@media (max-width: 640px) {
+  h1, .heading-1 {
+    font-size: 2rem;
+  }
+  h2, .heading-2 {
+    font-size: 1.5rem;
+  }
+  p, .text-body {
+    font-size: 0.95rem;
+  }
+}

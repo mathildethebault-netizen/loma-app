@@ -1,0 +1,20 @@
+/* === Animation fluide d’apparition === */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(15px);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}

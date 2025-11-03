@@ -1,0 +1,34 @@
+[
+  {
+    "code": "G1",
+    "intitule": "Identifier le verbe dans une phrase simple"
+  },
+  {
+    "code": "G2",
+    "intitule": "Reconnaître le sujet du verbe"
+  },
+  {
+    "code": "G3",
+    "intitule": "Repérer le groupe nominal sujet"
+  },
+  {
+    "code": "G4",
+    "intitule": "Distinguer phrase et non-phrase"
+  },
+  {
+    "code": "G5",
+    "intitule": "Identifier les types de phrases (déclarative, interrogative, impérative)"
+  },
+  {
+    "code": "G6",
+    "intitule": "Identifier l’adjectif qualificatif"
+  },
+  {
+    "code": "G7",
+    "intitule": "Identifier les adverbes fréquents"
+  },
+  {
+    "code": "G8",
+    "intitule": "Repérer la négation simple"
+  }
+]
