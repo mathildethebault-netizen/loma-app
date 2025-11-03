@@ -22,9 +22,7 @@
     "generate-french-ludique": "tsx scripts/generateFrenchLudique.ts",
     "generate-grammar-vocab-data": "tsx scripts/generateGrammarVocabData.ts",
     "enrich-french-exercices": "tsx scripts/enrichFrenchExercices.ts",
-    "lint": "eslint src --fix",
-    "check-fonts": "node check-fonts.js",
-    "postinstall": "npm run check-fonts"
+    "lint": "eslint src --fix"
   },
   "dependencies": {
     "@faker-js/faker": "^10.1.0",
