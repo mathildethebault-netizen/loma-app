@@ -3,11 +3,13 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/', // ✅ important pour Vercel — sinon page blanche
+
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['assets/favicon.svg','assets/luma.svg'],
+      includeAssets: ['/assets/favicon.svg', '/assets/luma.svg'],
       manifest: {
         name: 'Loma_Application',
         short_name: 'Loma',
@@ -15,11 +17,17 @@ export default defineConfig({
         theme_color: '#fef9c3',
         background_color: '#fef9c3',
         icons: [
-          { src: 'assets/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: 'assets/icon-512.png', sizes: '512x512', type: 'image/png' }
+          { src: '/assets/icon-192.png', sizes: '192x192', type: 'image/png' },
+          { src: '/assets/icon-512.png', sizes: '512x512', type: 'image/png' }
         ]
       }
     })
   ],
-  server: { port: 5173 }
+
+  build: {
+    outDir: 'dist',
+    chunkSizeWarningLimit: 1000, // ✅ pour éviter les warnings
+  },
+
+  server: { port: 5173 },
 })
