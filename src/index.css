@@ -1,16 +1,20 @@
 /* =========================================================
    🌸 LOMA APPLICATION — STYLES GLOBAUX + POLICES LOCALES
-   =========================================================
-   - Polices locales + fallback Google Fonts
-   - Variables de couleurs globales (ancien colors.css)
-   - Harmonisation des animations et typographies
-   - Intégration du fichier buttons.tailwind.css
    ========================================================= */
 
-/* === Import Google Fonts (fallback) === */
+/* === Tous les imports doivent être en haut === */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Glacial+Indifference&display=swap');
+@import "./styles/buttons.tailwind.css";
+@import "./styles/typography.css";
 
-/* === Polices locales === */
+/* === Base Tailwind === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================
+   📚 POLICES LOCALES
+========================================================= */
 @font-face {
   font-family: 'Childos Arabic';
   src: url('/fonts/ChildosArabic-Regular.woff') format('woff');
@@ -47,16 +51,8 @@
   font-display: swap;
 }
 
-/* === Base Tailwind === */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* === Import du fichier de boutons === */
-@import "./styles/buttons.tailwind.css";
-
 /* =========================================================
-   🎨 VARIABLES DE COULEURS GLOBALES (ancien colors.css)
+   🎨 VARIABLES DE COULEURS GLOBALES
 ========================================================= */
 :root {
   --loma-rose: #f6afa1;
@@ -119,7 +115,7 @@ a {
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #b45309; /* brun doux */
+  color: #b45309;
 }
 
 /* === Titres === */
@@ -138,7 +134,7 @@ p {
   line-height: 1.6;
 }
 
-/* === Boutons généraux === */
+/* === Boutons === */
 button {
   cursor: pointer;
   border: none;
@@ -162,53 +158,56 @@ button:hover {
     transform: translateY(0);
   }
 }
+
 @keyframes bounce-slow {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-8px);
   }
 }
+
 .animate-fadeIn {
   animation: fadeIn 0.6s ease-out both;
 }
+
 .animate-bounce-slow {
   animation: bounce-slow 2s infinite ease-in-out;
 }
 
-/* === Scrollbar douce === */
+/* === Scrollbar === */
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 6px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* === Classes utiles === */
+/* === Classes utilitaires === */
 .bg-gradient-loma {
   background: linear-gradient(to bottom, #fdf2f8, #fffbea, #ebf8ff);
 }
 
-/* === Couleurs réutilisables === */
 .bg-loma {
   background-color: var(--loma-fond);
   color: var(--loma-text-principal);
 }
+
 .text-loma {
   color: var(--loma-text-principal);
 }
+
 .shadow-loma {
   box-shadow: 0 4px 10px var(--loma-ombre-douce);
 }
+
 .border-loma {
   border-color: var(--loma-ligne);
 }
-
-/* === Typographie supplémentaire === */
-@import "./styles/typography.css";
