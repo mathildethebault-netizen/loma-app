@@ -1,11 +1,12 @@
 {
   "name": "loma_application",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "type": "module",
+  "description": "Application éducative pastel (Lecture • Français • Maths)",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/clean-hmr.js",
     "preview": "vite preview",
     "generate-exercices": "tsx src/utils/generateExercices.ts",
     "predev": "npm run generate-exercices",
